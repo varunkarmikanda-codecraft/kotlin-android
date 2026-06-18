@@ -12,6 +12,9 @@ import com.example.myapplication.kotlin.abstractclassandinterface.aquarium
 import com.example.myapplication.kotlin.abstractclassandinterface.interfaces
 import com.example.myapplication.kotlin.classesandobjects.classes
 import com.example.myapplication.kotlin.dataclass.dataClass
+import com.example.myapplication.kotlin.enums.enums
+import com.example.myapplication.kotlin.extensions.extensions
+import com.example.myapplication.kotlin.extensions.writeExtensions
 import com.example.myapplication.kotlin.filter
 import com.example.myapplication.kotlin.fruits
 import com.example.myapplication.kotlin.function
@@ -39,6 +42,9 @@ class MainActivity : AppCompatActivity() {
 //        subclasses()
 //        aquarium()
 //        interfaces()
-        dataClass()
+//        dataClass()
+//        enums()
+//        extensions()
+        writeExtensions()
     }
 }
