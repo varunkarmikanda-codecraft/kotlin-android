@@ -24,6 +24,12 @@ fun GreenLeafPlant.print() = Log.i(tagExt, "Green Leaf plant")
 val AquariumPlant.isGreen: Boolean
     get() = color == "green"
 
+fun AquariumPlant?.pull() {
+    this?.apply {
+        Log.i(tagExt, "Removing $this")
+    }
+}
+
 fun checkExtension() {
     val plant = GreenLeafPlant(10)
     plant.print()
@@ -32,6 +38,9 @@ fun checkExtension() {
     aquariumPlant.print()
 
     Log.i(tagExt, "${ aquariumPlant.isGreen }")
+
+    val plants: AquariumPlant? = null
+    plants.pull()
 }
 
 
